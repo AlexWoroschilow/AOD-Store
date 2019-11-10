@@ -1,0 +1,67 @@
+Package: curl
+Priority: optional
+Section: libs
+Installed-Size: 201
+Maintainer: djcj <djcj@gmx.de>
+Architecture: amd64
+Version: 7.59.0-1~xenial2
+Depends: libc6 (>= 2.7), libcurl3, zlib1g (>= 1:1.1.4)
+Filename: pool/main/c/curl/curl_7.59.0-1~xenial2_amd64.deb
+Size: 110928
+MD5sum: feafa2e3c81fbe2adc8669ed80546d60
+SHA1: d8aae7cef5418653298821133def38c50c17bc4a
+SHA256: 7a4427e75095eb246411143ebf89cd3742acfdee5237dde623f9317be2666df6
+Description: Multi-protocol file transfer library
+Description-md5: cac4db15236e0b98784732ee47f8d926
+
+Package: libcurl3
+Source: curl
+Priority: optional
+Section: libs
+Installed-Size: 939
+Maintainer: djcj <djcj@gmx.de>
+Architecture: amd64
+Version: 7.59.0-1~xenial2
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4)
+Filename: pool/main/c/curl/libcurl3_7.59.0-1~xenial2_amd64.deb
+Size: 364660
+MD5sum: 54f32479ea4b32bebf92b1ea8e052aca
+SHA1: bf0f9b541e3406d355098ea2f3e0b0f662deb391
+SHA256: 642891b0f226aa1ae788ee87ec1fdf71a7bc0eadc46d4a3c5f5d4c451c940897
+Description: Multi-protocol file transfer library
+Description-md5: cac4db15236e0b98784732ee47f8d926
+
+Package: libcurl-nss3
+Source: curl
+Priority: optional
+Section: metapackages
+Installed-Size: 9
+Maintainer: djcj <djcj@gmx.de>
+Architecture: amd64
+Version: 7.59.0-1~xenial2
+Depends: libcurl3
+Filename: pool/main/c/curl/libcurl-nss3_7.59.0-1~xenial2_amd64.deb
+Size: 2300
+MD5sum: 39c4bcf6e62b024be93d3ab849becc5f
+SHA1: f1d64d346d7fc943aec6ced75ac56212ea113454
+SHA256: 92ee6d0370973a4196e2623c6903498733353b9a7b57c91a752b5202f242efb6
+Description: Multi-protocol file transfer library
+Description-md5: cac4db15236e0b98784732ee47f8d926
+
+Package: libcurl-gnutls3
+Source: curl
+Priority: optional
+Section: metapackages
+Installed-Size: 9
+Maintainer: djcj <djcj@gmx.de>
+Architecture: amd64
+Version: 7.59.0-1~xenial2
+Depends: libcurl3
+Filename: pool/main/c/curl/libcurl-gnutls3_7.59.0-1~xenial2_amd64.deb
+Size: 2306
+MD5sum: e36288504c0eec2ebd18603695630193
+SHA1: cda7bae7a82ed3942ee719d6a44e7294dd29abf3
+SHA256: 806abe0391fd2d6ed639851bf83fa57fb2bd25db63a9a7e03b4f287f936c3b98
+Description: Multi-protocol file transfer library
+Description-md5: cac4db15236e0b98784732ee47f8d926
+

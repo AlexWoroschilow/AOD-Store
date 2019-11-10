@@ -1,0 +1,10 @@
+app: pdfmod
+binpatch: true
+
+ingredients:
+  dist: trusty
+  sources: 
+    - deb http://archive.ubuntu.com/ubuntu/ trusty main universe
+
+script:
+  - cp ../../icon.svg .

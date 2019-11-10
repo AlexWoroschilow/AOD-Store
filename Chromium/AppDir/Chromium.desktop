@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Chromium
+Comment=Internet browser
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Network;Office;
+StartupWMClass=Chromium
+StartupNotify=true

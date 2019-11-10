@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=MysqlWorkbench
+Comment=The unified visual tool for database architects, developers, and DBAs
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=MysqlWorkbench
+StartupNotify=true

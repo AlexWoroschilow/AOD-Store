@@ -1,0 +1,7 @@
+#! /bin/bash
+set -e
+
+
+cd ${APPDIR}/opt/application
+
+exec ${APPDIR}/opt/application/XMind $@

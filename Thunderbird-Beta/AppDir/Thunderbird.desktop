@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Thunderbird (Beta)
+Comment=Software für den einfachen Umgang mit E-Mails
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Network;Office;
+StartupWMClass=Thunderbird
+StartupNotify=true

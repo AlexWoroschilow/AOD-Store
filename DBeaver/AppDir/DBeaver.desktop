@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=DBeaver Community
+Comment=Free Universal Database Tool
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=DBeaver
+StartupNotify=true

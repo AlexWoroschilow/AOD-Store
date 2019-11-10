@@ -1,0 +1,14 @@
+app: MysqlWorkbench
+binpatch: true
+
+ingredients:
+  package: mysql-workbench
+  dist: trusty
+  sources: 
+    - deb http://archive.ubuntu.com/ubuntu/ trusty main universe
+
+script:
+  - pwd
+  - cp ../../icon.svg .
+  - cp ../../MysqlWorkbench.desktop .
+  - cp ../../AppRun .

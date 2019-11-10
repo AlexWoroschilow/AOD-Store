@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=CLion
+Comment=A cross-platform IDE for C and C++
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=CLion
+StartupNotify=true

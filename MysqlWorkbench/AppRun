@@ -1,0 +1,6 @@
+#! /bin/bash
+set -e
+
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${APPDIR}/lib/x86_64-linux-gnu:${APPDIR}/usr/lib:${APPDIR}/usr/lib/mysql-workbench/:${APPDIR}/usr/lib/x86_64-linux-gnu 
+
+exec ${APPDIR}/usr/lib/mysql-workbench/mysql-workbench-bin $@

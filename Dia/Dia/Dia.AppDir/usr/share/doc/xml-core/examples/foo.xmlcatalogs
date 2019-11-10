@@ -1,3 +1,0 @@
-local;catalog.xml;././/share/xml/schema/foo/catalog.xml
-root-and-package;public;-//FOO//DTD FOO//EN;././/share/xml/schema/foo/catalog.xml
-root-and-package;system;http://www.foo.org/foo/foo.dtd;././/share/xml/schema/foo/catalog.xml

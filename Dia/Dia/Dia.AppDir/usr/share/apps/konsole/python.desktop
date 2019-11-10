@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=KonsoleApplication
-Name=Python Interpreter
-Comment=Python
-Exec=././/bin/python
-Icon=././/share/pixmaps/python.xpm

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Eclipse-CDT
+Comment=Eclipse C/C++ IDE
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;
+StartupWMClass=Ecilpse-CDT
+StartupNotify=true

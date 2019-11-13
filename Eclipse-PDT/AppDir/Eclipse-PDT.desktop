@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Eclipse-PDT
+Comment=Eclipse PHP IDE
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;
+StartupWMClass=Ecilpse-PDT
+StartupNotify=true

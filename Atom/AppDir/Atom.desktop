@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Atom
+GenericName=Text Editor
+Comment=A hackable text editor for the 21st Century.
+Exec=AppRun %F
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;
+MimeType=text/plain;
+StartupWMClass=Atom
+StartupNotify=true

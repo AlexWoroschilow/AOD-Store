@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=WebStorm
+Comment=The smartest JavaScript IDE
+Exec=AppRun %F
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=WebStorm
+StartupNotify=true

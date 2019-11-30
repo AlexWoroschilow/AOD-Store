@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=MongoDB-Compass
+Comment=As the GUI for MongoDB, MongoDB Compass allows you to make smarter decisions about document structure, querying, indexing, document validation, and more. Commercial subscriptions include technical support for MongoDB Compass.
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=MongoDB-Compass
+StartupNotify=true

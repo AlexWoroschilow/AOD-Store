@@ -14,7 +14,7 @@ all:
 	cp -r RubyMine-2019.3/* AppDir/opt/application
 
 	chmod +x AppDir/AppRun
-	export ARCH=x86_64; appimagetool AppDir $(OUTPUT)
+	export ARCH=x86_64 && appimagetool AppDir $(OUTPUT)
 
 	chmod +x $(OUTPUT)
 

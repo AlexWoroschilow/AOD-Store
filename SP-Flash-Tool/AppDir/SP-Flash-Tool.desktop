@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SP-Flash-Tool
+Comment=Tolles Brainstorming- und Mindmapping-Tool
+StartupWMClass=SP-Flash-Tool
+StartupNotify=true
+Exec=AppRun %U
+Icon=icon
+Terminal=false
+Type=Application
+X-MultipleArgs=false
+Categories=Development;Office;

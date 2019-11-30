@@ -1,0 +1,11 @@
+#! /bin/bash
+set -e
+
+#APPDIR=.
+cd ${HOME}
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${APPDIR}/lib:${APPDIR}/opt/application
+
+exec ${APPDIR}/opt/application/flash_tool $@
+
+exit 0

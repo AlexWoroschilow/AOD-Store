@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Android-Studio
+Comment=Android Studio provides the fastest tools for building apps on every type of Android device.
+Exec=AppRun %F
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=Android-Studio
+StartupNotify=true

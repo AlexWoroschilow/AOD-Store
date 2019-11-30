@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=RubyMine
+Comment=The Ruby on Rails IDE by JetBrains
+Exec=AppRun %F
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=RubyMine
+StartupNotify=true

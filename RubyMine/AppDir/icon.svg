@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="rubymine-b" x1="86.761%" x2="56.164%" y1="84.171%" y2="33.501%">
+      <stop offset="0%" stop-color="#FE2857"/>
+      <stop offset="100%" stop-color="#FC801D"/>
+    </linearGradient>
+    <polygon id="rubymine-a" points="53.2 0 34.9 6.6 20.5 0 6.3 35.6 22.6 29.1 22.3 47.101 57.101 47.7 64 12.5"/>
+    <linearGradient id="rubymine-d" x1="22.607%" x2="75.743%" y1="2.779%" y2="95.639%">
+      <stop offset="0%" stop-color="#9039D0"/>
+      <stop offset="42.341%" stop-color="#FE2857"/>
+      <stop offset="56.992%" stop-color="#FE2857"/>
+      <stop offset="100%" stop-color="#FC801D"/>
+    </linearGradient>
+    <polygon id="rubymine-c" points="0 11.3 0 44.901 13.5 64.001 26.6 62.3 50.6 59.1 42.9 44.499 48 38.401 48.5 34.7 23.4 5.599"/>
+    <linearGradient id="rubymine-f" x1="50%" x2="50%" y1="-11.618%" y2="60.589%">
+      <stop offset="0%" stop-color="#A6A5A5"/>
+      <stop offset="0%" stop-color="#989898" stop-opacity=".568"/>
+      <stop offset="100%"/>
+    </linearGradient>
+    <polygon id="rubymine-e" points="0 40 40 40 40 0 0 0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#FC801D" xlink:href="#rubymine-a"/>
+    <use fill="url(#rubymine-b)" xlink:href="#rubymine-a"/>
+    <polygon fill="#9039D0" points="46.5 20.7 23.4 5.6 4.8 17.1 45.6 32.8"/>
+    <use fill="#FE2857" xlink:href="#rubymine-c"/>
+    <use fill="url(#rubymine-d)" xlink:href="#rubymine-c"/>
+    <g transform="translate(12 12)">
+      <use fill="#000" xlink:href="#rubymine-e"/>
+      <use fill="url(#rubymine-f)" xlink:href="#rubymine-e"/>
+      <polygon fill="#FFF" points="19.634 5 23.514 5 27.817 12.188 32.117 5 35.997 5 35.997 22 32.421 22 32.421 10.903 27.817 18.164 27.721 18.164 23.165 10.976 23.165 22 19.634 22"/>
+      <path fill="#FFF" d="M11.2466,13.2568 C12.1356,13.2568 12.8156,13.0388 13.2926,12.6018 C13.7676,12.1648 14.0056,11.5818 14.0056,10.8528 L14.0056,10.8048 C14.0056,9.9948 13.7556,9.3878 13.2566,8.9828 C12.7576,8.5788 12.0646,8.3758 11.1766,8.3758 L7.6006,8.3758 L7.6006,13.2568 L11.2466,13.2568 Z M3.9996,4.9998 L11.4806,4.9998 C13.5536,4.9998 15.1426,5.5748 16.2496,6.7238 C17.1836,7.6948 17.6516,8.9908 17.6516,10.6098 L17.6516,10.6588 C17.6516,12.0348 17.3276,13.1558 16.6816,14.0228 C16.0346,14.8888 15.1896,15.5248 14.1446,15.9288 L18.1426,21.9998 L13.9346,21.9998 L10.5486,16.7778 L7.5796,16.7778 L7.6006,21.9998 L3.9996,21.9998 L3.9996,4.9998 Z"/>
+      <polygon fill="#FFF" points="4 35 19 35 19 32.5 4 32.5"/>
+    </g>
+  </g>
+</svg>

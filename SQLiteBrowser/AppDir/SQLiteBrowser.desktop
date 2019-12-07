@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SQLiteBrowser
+Comment=SQLite Database Design, Administration and Development Tool
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=SQLiteBrowser
+StartupNotify=true

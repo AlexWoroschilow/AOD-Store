@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SQLiteStudio
+Comment=SQLiteStudio is a SQLite database manager 
+Exec=AppRun %F
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=icon
+Categories=Development;Office;
+StartupWMClass=SQLiteStudio
+StartupNotify=true

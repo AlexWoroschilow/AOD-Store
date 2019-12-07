@@ -1,0 +1,9 @@
+#! /bin/bash
+set -e
+
+export WB_DEST_DIR="${APPDIR}"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${APPDIR}/lib:${APPDIR}/opt/application
+
+cd ${HOME}
+
+exec ${APPDIR}/usr/lib/mysql-workbench/mysql-workbench  $@

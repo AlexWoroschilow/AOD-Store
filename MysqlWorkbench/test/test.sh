@@ -3,6 +3,10 @@ for i in $(apt-cache depends mysql-workbench | grep -E 'Hängt ab von:' | cut -d
 for i in $(ls -a | grep deb ); do dpkg-deb -x $i lib ; done
 rm -rf ../AppDir/lib/*
 rm -rf ../AppDir/opt/application/*
+
+mkdir -p  ../AppDir/lib
+mkdir -p  ../AppDir/opt/application
+
 cp -r lib/lib/x86_64-linux-gnu/* ../AppDir/lib
 cp -r lib/usr ../AppDir/
 rm -f *.deb

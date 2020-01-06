@@ -1,4 +1,4 @@
-SOURCE="https://sqlitestudio.pl/files/sqlitestudio3/complete/linux64/sqlitestudio-3.2.1.tar.xz"
+SOURCE="https://github.com/pawelsalawa/sqlitestudio/releases/download/3.2.1/sqlitestudio-3.2.1.tar.xz"
 DESTINATION="build.tar.xz"
 OUTPUT="SQLiteStudio.AppImage"
 

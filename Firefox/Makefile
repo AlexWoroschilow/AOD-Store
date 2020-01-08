@@ -1,4 +1,4 @@
-SOURCE="https://download-installer.cdn.mozilla.net/pub/firefox/releases/71.0/linux-x86_64/de/firefox-71.0.tar.bz2"
+SOURCE="https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=de"
 DESTINATION="build.tar.bz2"
 OUTPUT="Firefox.AppImage"
 

@@ -1,4 +1,4 @@
-SOURCE="https://download-installer.cdn.mozilla.net/pub/firefox/releases/71.0b8/linux-x86_64/de/firefox-71.0b8.tar.bz2"
+SOURCE="https://download.mozilla.org/?product=firefox-beta-latest&os=linux64&lang=de"
 DESTINATION="build.tar.bz2"
 OUTPUT="Firefox-Beta.AppImage"
 
@@ -6,10 +6,10 @@ OUTPUT="Firefox-Beta.AppImage"
 all:
 	echo "Building: $(OUTPUT)"
 	wget -O $(DESTINATION)  $(SOURCE)
-	
+
 	tar -jxvf $(DESTINATION)
 	rm -rf AppDir/opt
-	
+
 	mkdir --parents AppDir/opt/application
 	mv firefox/* AppDir/opt/application
 

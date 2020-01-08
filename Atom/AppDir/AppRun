@@ -1,4 +1,8 @@
 #! /bin/bash
-set -e
+set -euxo pipefail
+
 cd ${HOME}
-exec ${APPDIR}/opt/application/atom $@
+
+exec ${APPDIR}/opt/application/atom $@ 2>&1 > /dev/null
+
+exit 0
